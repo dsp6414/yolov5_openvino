@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /Users/thanhnguyen/Documents/Datasets/SKU110K_YOLO/images/val/
+val: /Users/thanhnguyen/Documents/Datasets/SKU110K_YOLO/images/val/
+test: /Users/thanhnguyen/Documents/Datasets/SKU110K_YOLO/images/val/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['object']

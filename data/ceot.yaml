@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ./datasets/CEOT_hand_yolo/images/train/  # 29935 images
+val: ./datasets/CEOT_hand_yolo/images/val/      #  6928 images
+test: ./datasets/CEOT_hand_yolo/images/test/    #  4381 images 
+
+# number of classes
+nc: 1
+
+# class names
+names: ['hand']
